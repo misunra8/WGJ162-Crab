@@ -12,14 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cac1c09f0ac33a4da8ddd15f7a1cbd2, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: c08874f22532334c838738efd8b4341b
+    GuidInternal: 
+    m_lastTime: -8586041139360944660
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: c333ed6eb3e1704fb0a9c0b74d10497f
+    GuidInternal: 
+    m_lastTime: -8586041139360624385
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 68e4b6cb7e66ff44b6d3998cde79a9d7
+    GuidInternal: 
+    m_lastTime: -8586041137482130499
+    List:
+    - name: Master
+      guid: 3af37e2e69639e4589bb0380a3da5c01
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master
+        ObjectType: 7
+      Path: Default Work Unit\Master
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: ab7bbff0a04169448e28da7e31fd2852
+    GuidInternal: 
+    m_lastTime: -8586041139360669425
+    List: []
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e1a29994e3775b45bbb68c781c67409e
+    GuidInternal: 
+    m_lastTime: -8586041139360834565
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 3c8c2e66e501ac489bd7fb4023aa8866
+    GuidInternal: 
+    m_lastTime: -8586041139360784523
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 0df22e7fa254ba4f80dde6bdba0e29a1
+    GuidInternal: 
+    m_lastTime: -8586041139360639395
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 222f4bc8690c0b4db256d369d971b30b
+    GuidInternal: 
+    m_lastTime: -8586041139360914633
+    List: []
+  ExpandedItems:
+  - /WGJ162-Crab_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
