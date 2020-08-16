@@ -9,9 +9,10 @@ public class Player : MonoBehaviour
     public float speed = 2.0f;
     public float rotateSpeed = 0.5f;
 
-    public KeyCode forward, left, right, backward;
+    public KeyCode forward, left, right, backward, rDash, lDash;
 
     public Vector3 cameraOffset = new Vector3(0f, 0.5f, 0.5f);
+    public Rigidbody rb;
 
     private Camera cam;
     private Transform camLock;
@@ -21,6 +22,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        rb = GetComponent<Rigidbody>();
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -60,12 +62,18 @@ public class Player : MonoBehaviour
         facing.position = transform.position + direction * 4f;
         if (Input.GetKey(forward) && !Input.GetKey(backward)) {
             transform.position += direction * Time.deltaTime * speed;
-        } else if (Input.GetKey(backward) && !Input.GetKey(forward)) {
+        } if (Input.GetKey(backward) && !Input.GetKey(forward)) {
             transform.position -= direction * Time.deltaTime * speed;
-        } else if (Input.GetKey(right) && !Input.GetKey(left)) {
+        } if (Input.GetKey(right) && !Input.GetKey(left)) {
             transform.position += rightDirection * Time.deltaTime * speed;
-        } else if (Input.GetKey(left) && !Input.GetKey(right)) {
+        } if (Input.GetKey(left) && !Input.GetKey(right)) {
             transform.position -= rightDirection * Time.deltaTime * speed;
+        }
+        if (Input.GetKey(lDash)) {
+            rb.AddForce(transform.right * speed * -10);
+        }
+        if (Input.GetKey(rDash)) {
+            rb.AddForce(transform.right * speed * 10);
         }
     }
 }
