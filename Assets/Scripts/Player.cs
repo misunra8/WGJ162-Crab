@@ -9,8 +9,12 @@ public class Player : MonoBehaviour
     // https://poly.google.com/view/2DgM36qZW2u
     public float speed = 2.0f;
     public float rotateSpeed = 0.5f;
+
+    public Rigidbody rb;
+    public float jumpModifier = 10;
     
-    public KeyCode forward, left, right, backward;
+    public KeyCode forward, left, right, backward, jump;
+
 
     public float dashSpeed, dashTimeout, dashRechargeTime;
     public Image chargeBar;
@@ -20,6 +24,7 @@ public class Player : MonoBehaviour
 
     public Vector3 cameraOffset = new Vector3(0f, 0.5f, 0.5f);
 
+    private bool onGround;
     private Camera cam;
     private Transform camLock;
 
@@ -28,6 +33,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        rb = GetComponent<Rigidbody>();
+
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -83,11 +90,22 @@ public class Player : MonoBehaviour
             positionalOffset -= rightDirection;
         }
 
+        if (Input.GetKey(jump) && onGround) {
+            rb.AddForce(0, jumpModifier, 0, ForceMode.Impulse);
+            onGround = false;
+        }
+
         if (positionalOffset.magnitude > 0f) {
             transform.position += positionalOffset.normalized * Time.deltaTime * speed;
         }
 
         HandleDash(rightDirection);
+    }
+
+    private void OnCollisionEnter(Collision collision) {
+        if (collision.gameObject.name == "Terrain") {
+            onGround = true;
+        }
     }
 
     private void HandleDash(Vector3 rightDirection) {
