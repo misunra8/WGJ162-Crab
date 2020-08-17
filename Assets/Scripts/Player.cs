@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public float speed = 2.0f;
     public float rotateSpeed = 0.5f;
 
-    public KeyCode forward, left, right, backward, rDash, lDash;
+    public KeyCode forward, left, right, backward, rDash, lDash, jump;
 
     public Vector3 cameraOffset = new Vector3(0f, 0.5f, 0.5f);
     public Rigidbody rb;
@@ -74,6 +74,9 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKey(rDash)) {
             rb.AddForce(transform.right * speed * 10);
+        }
+        if (Input.GetKey(jump)) {
+            rb.AddForce(transform.up * speed * 2);
         }
     }
 }
