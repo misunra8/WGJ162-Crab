@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public float speed = 2.0f;
     public float rotateSpeed = 0.5f;
     
-    public KeyCode forward, left, right, backward;
+    public KeyCode forward, left, right, backward, jump;
 
     public float dashSpeed, dashTimeout, dashRechargeTime;
     public Image chargeBar;

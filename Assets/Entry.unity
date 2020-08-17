@@ -217,17 +217,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   rotateSpeed: 3
-  dashSpeed: 40
-  dashTimeout: 1
-  dashRechargeTime: 1
-  chargeBar: {fileID: 685710017}
   forward: 119
   left: 97
   right: 100
   backward: 115
-  rDash: 101
-  lDash: 113
-  jump: 0
+  jump: 32
+  dashSpeed: 0
+  dashTimeout: 0
+  dashRechargeTime: 0
+  chargeBar: {fileID: 0}
   cameraOffset: {x: 0, y: 9, z: 3}
   rb: {fileID: 0}
 --- !u!1 &657543996
