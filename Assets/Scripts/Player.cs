@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
     private bool rightDash, leftDash;
 
     public Vector3 cameraOffset = new Vector3(0f, 0.5f, 0.5f);
-    public Rigidbody rb;
 
     private Camera cam;
     private Transform camLock;
@@ -29,7 +28,6 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        rb = GetComponent<Rigidbody>();
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
