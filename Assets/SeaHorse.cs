@@ -31,6 +31,6 @@ public class SeaHorse : MonoBehaviour
         if (rigidbody.velocity.magnitude > speed) {
             rigidbody.velocity = rigidbody.velocity.normalized * speed;
         }
-        transform.LookAt(crab);
+        transform.LookAt(crab - Vector3.down);
     }
 }
