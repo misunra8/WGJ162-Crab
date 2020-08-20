@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -29,8 +28,6 @@ public class Player : MonoBehaviour
     private Camera cam;
     private Transform camLock;
 
-    private Transform facing;
-
     public float dangerThreshold, failurePoint;
     public Image detectionLeftMeter, detectionRightMeter;
     private List<SeaHorse> seahorses;
@@ -53,9 +50,6 @@ public class Player : MonoBehaviour
             if (t.name == "Cam_Lock") {
                 camLock = t;
                 camLock.localPosition = cameraOffset;
-            }
-            if (t.name == "Face_Direction") {
-                facing = t;
             }
         }
         rightDash = false;
@@ -90,8 +84,6 @@ public class Player : MonoBehaviour
         Vector3 direction = new Vector3(Mathf.Sin(yAngle), 0f, Mathf.Cos(yAngle));
         float yRightAngle = Mathf.Deg2Rad * (transform.eulerAngles.y + 90f);
         Vector3 rightDirection = new Vector3(Mathf.Sin(yRightAngle), 0f, Mathf.Cos(yRightAngle));
-        //Debug.Log("Y rotation = " + yAngle +  " | x: " + direction.x + ", z: " + direction.z);
-        facing.position = transform.position + direction * 4f;
         Vector3 positionalOffset = new Vector3();
         if (Input.GetKey(forward) && !Input.GetKey(backward)) {
             positionalOffset += direction;
@@ -190,16 +182,17 @@ public class Player : MonoBehaviour
 
     private void UpdateDetection() {
         float closest = CheckNearest();
+        float detection = 0f;
         if (closest < failurePoint) {
-            EditorSceneManager.LoadScene("End");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("End");
         }
         if (closest < dangerThreshold) {
             closest -= failurePoint;
-            float detection = 1f - (closest / (dangerThreshold - failurePoint));
+            detection = 1f - (closest / (dangerThreshold - failurePoint));
             detectionLeftMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
-            detectionLeftMeter.fillAmount = detection;
             detectionRightMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
-            detectionRightMeter.fillAmount = detection;
         }
+        detectionLeftMeter.fillAmount = detection;
+        detectionRightMeter.fillAmount = detection;
     }
 }
