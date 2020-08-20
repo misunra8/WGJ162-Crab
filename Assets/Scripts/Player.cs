@@ -129,6 +129,9 @@ public class Player : MonoBehaviour
             leftDash = false;
             if (rightDash && dashCatchTime > 0f) {
                 r.velocity += rightDirection.normalized * dashSpeed;
+
+                AkSoundEngine.PostEvent("SideDash",this.gameObject);
+
                 rightDash = false;
                 dashRecharge = dashRechargeTime;
             } else {
@@ -139,6 +142,9 @@ public class Player : MonoBehaviour
             rightDash = false;
             if (leftDash && dashCatchTime > 0f) {
                 r.velocity -= rightDirection.normalized * dashSpeed;
+
+                AkSoundEngine.PostEvent("SideDash", this.gameObject);
+
                 leftDash = false;
                 dashRecharge = dashRechargeTime;
             } else {

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Health" ID="{4AE0B3E6-780E-4055-A5B8-8F879938E0F9}">
+					<ChildrenList>
+						<Switch Name="Healthy" ID="{FBA5312C-5D18-4C30-BE8D-93DE90C4FF83}"/>
+						<Switch Name="Near_Death" ID="{EE049F08-508D-4F61-A01D-5E011EB17024}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

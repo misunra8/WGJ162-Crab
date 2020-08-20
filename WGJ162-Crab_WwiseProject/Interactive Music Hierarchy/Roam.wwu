@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8ACA5E08-3CD5-4903-A7EB-B99353974C05}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Roam" ID="{8ACA5E08-3CD5-4903-A7EB-B99353974C05}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Roam A" ID="{0B9914D5-3006-4EE5-B1B0-5381A3EBC3E6}" ShortID="398720183">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="100"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Roam" ID="{072790BF-5183-422E-9F70-3B2459771639}" ShortID="226158694">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="19800.022675737"/>
+								<Property Name="Tempo" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="melo1_8B_100BPM_Pre1B" ID="{8C332C97-2445-4F71-84C2-FAA914EC9977}" ShortID="286815993">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3EC504BB-C8F1-4440-802F-D8A0E346C893}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="36"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="melo1_8B_100BPM_Pre1B" ID="{90FF7561-4347-4E80-954E-B933141D0166}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417064511"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="melo2_8B_100BPM_Pre1B" ID="{1A8D6135-84D7-424A-B736-67BC8138364A}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="708729767"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="melo3_8B_100BPM_Pre1B" ID="{9BC9E7E1-8988-4236-80D6-2A8254981A35}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141049560"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{08752F02-1320-4708-887F-2F8CCB3568F1}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{DE107151-9102-43A2-A607-F4BE1DA9CFC5}">
+											<ClipList>
+												<MusicClip Name="melo1_8B_100BPM_Pre1B" ID="{C4CFC40C-6F71-4C43-AA67-02B19368A2EF}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="melo1_8B_100BPM_Pre1B" ID="{90FF7561-4347-4E80-954E-B933141D0166}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{7A2B5A0A-9EAE-41E2-8D18-FCE05C4A54BA}">
+											<ClipList>
+												<MusicClip Name="melo2_8B_100BPM_Pre1B" ID="{68D1030F-D8BB-4E42-BA93-5F4AA0C73B34}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1156.42297781232"/>
+													</PropertyList>
+													<AudioSourceRef Name="melo2_8B_100BPM_Pre1B" ID="{1A8D6135-84D7-424A-B736-67BC8138364A}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{110CBF49-8034-423E-97F7-C82871140653}">
+											<ClipList>
+												<MusicClip Name="melo3_8B_100BPM_Pre1B" ID="{AC9156CE-8924-43EA-8EE9-44CC6BE02BB0}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="melo3_8B_100BPM_Pre1B" ID="{9BC9E7E1-8988-4236-80D6-2A8254981A35}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{58B4B7A5-6115-47A4-B0E4-B248276BFFC1}"/>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="ocean_8B_100BPM" ID="{E50B1183-7CC9-4F3A-97FF-88294970B5B3}" ShortID="647287554">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ocean_8B_100BPM" ID="{E18251E3-AE8A-40FB-A56E-4D4F3D0BD391}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\ocean_8B_100BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932249202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{CA758B5F-20BF-44E9-91C2-77876CDE2D31}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{77701943-CECE-4B29-ACE5-B31C2616CB1C}">
+											<ClipList>
+												<MusicClip Name="ocean_8B_100BPM" ID="{CD9DC874-5FB9-43AB-857B-946378B40CF5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="1785.65312750432"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1394.51006147957"/>
+													</PropertyList>
+													<AudioSourceRef Name="ocean_8B_100BPM" ID="{E18251E3-AE8A-40FB-A56E-4D4F3D0BD391}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{179BABAD-7668-4B1C-B7A8-A455F949A577}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-1.63984</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>19.200022675737</XPos>
+																		<YPos>-1.19996</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="rythmB_8B_100BPM" ID="{01EB8A4F-3F84-4BAC-B1E7-5ABDB9F3BA3F}" ShortID="58058611">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rythm_8B_100BPM" ID="{CA2EDEBE-D8E3-4931-B082-1CC0F77AB900}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\rythm_8B_100BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035909184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{991439D1-7D42-47CA-B31A-FF3FAAB60877}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{B4348FDF-9E83-4B01-B14D-61E24E6728DF}">
+											<ClipList>
+												<MusicClip Name="rythm_8B_100BPM" ID="{B138686F-3682-4F3E-BDDA-502F168A92DB}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="rythm_8B_100BPM" ID="{CA2EDEBE-D8E3-4931-B082-1CC0F77AB900}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="subMelo2_8B_100BPM_Pre2B" ID="{10065415-D971-4BA0-8A41-75CFFE81F6B1}" ShortID="820574393">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="subMelo2_8B_100BPM_Pre2B" ID="{8E654539-CE3D-404B-BCAB-8558816DEA29}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="101655479"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="subMelo3_8B_100BPM_Pre2B" ID="{CC4D9E4A-4DF9-42B9-AE01-0B3C9045F638}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\subMelo3_8B_100BPM_Pre2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965823196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{030FFFC5-0FF1-4EA5-AFF2-6806CE808F94}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0D54A797-8FCE-4208-A228-4291A4E98E9E}">
+											<ClipList>
+												<MusicClip Name="subMelo2_8B_100BPM_Pre2B" ID="{7EF3EF21-AF70-4F05-86F7-DB13266DEB1C}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9600.02267573696"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="9600"/>
+													</PropertyList>
+													<AudioSourceRef Name="subMelo2_8B_100BPM_Pre2B" ID="{8E654539-CE3D-404B-BCAB-8558816DEA29}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{C37AB341-AEDD-4B85-8300-DC5BA1096F6C}">
+											<ClipList>
+												<MusicClip Name="subMelo3_8B_100BPM_Pre2B" ID="{E614589D-CDC6-453A-A891-6A1CFF884A61}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9600.02267573696"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="9600"/>
+													</PropertyList>
+													<AudioSourceRef Name="subMelo3_8B_100BPM_Pre2B" ID="{CC4D9E4A-4DF9-42B9-AE01-0B3C9045F638}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{322608D6-D7A6-4D43-A662-34F0537A72FA}"/>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="subMelo4_8B_100BPM_Pre2B" ID="{421B1590-9B8C-4DE7-9377-580B1616ED1C}" ShortID="165934086">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="subMelo4_8B_100BPM_Pre2B" ID="{8A63A78A-BB9A-4DD9-A96E-AB0980630C16}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\subMelo4_8B_100BPM_Pre2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="108846159"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="subMelo_8B_100BPM_Pre2B" ID="{4C982C4D-166B-4305-8124-02095BAF2154}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="347014748"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{1AF43FD0-7D3B-4B14-9F62-31A3F6EE8845}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CF923E31-1A91-443C-94E6-6D1A073EA790}">
+											<ClipList>
+												<MusicClip Name="subMelo4_8B_100BPM_Pre2B" ID="{09383866-4EA2-47A9-B87B-061088A775DE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9600.02267573696"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="9600"/>
+													</PropertyList>
+													<AudioSourceRef Name="subMelo4_8B_100BPM_Pre2B" ID="{8A63A78A-BB9A-4DD9-A96E-AB0980630C16}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{93F4B7B8-2625-49EE-83BF-C6DFE3FB238C}">
+											<ClipList>
+												<MusicClip Name="subMelo_8B_100BPM_Pre2B" ID="{8A1A3715-1234-4422-BDE3-C6C92ABDFAB2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9600.02267573696"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="9600"/>
+													</PropertyList>
+													<AudioSourceRef Name="subMelo_8B_100BPM_Pre2B" ID="{4C982C4D-166B-4305-8124-02095BAF2154}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{504457A1-0541-44AA-95B6-A5511B69A45C}"/>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="rythmB2" ID="{5A492CAD-CEDD-4C5B-919E-608AA7C11910}" ShortID="1035496207">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Healthy" ID="{FBA5312C-5D18-4C30-BE8D-93DE90C4FF83}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Health" ID="{4AE0B3E6-780E-4055-A5B8-8F879938E0F9}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rythmB_8B_100BPM" ID="{306E150D-F8C7-4D20-B4A0-DBE059909E39}">
+											<Language>SFX</Language>
+											<AudioFile>WGJ162-Crab-Music\rythmB_8B_100BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="414003401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{942B52EC-4907-49C2-95E1-25D4208AACE7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{5D5C5E30-F4EE-454E-9364-7A47D8E9FDA8}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{A0DC1223-2522-45B1-8C14-4E81EBE305EA}">
+																<PropertyList>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{26DB2E4F-2219-4E3B-B0C3-B420A8D14AE4}">
+																<PropertyList>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2C68B6AC-32D8-41CE-A2BD-0FDF887C0446}">
+											<ClipList>
+												<MusicClip Name="rythmB_8B_100BPM" ID="{88773B37-E71E-4D9F-B816-373ECDA7C0F3}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="rythmB_8B_100BPM" ID="{306E150D-F8C7-4D20-B4A0-DBE059909E39}"/>
+												</MusicClip>
+											</ClipList>
+											<ReferenceList>
+												<Reference Name="TrackSequenceSwitch">
+													<ObjectRef Name="Near_Death" ID="{EE049F08-508D-4F61-A01D-5E011EB17024}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{40E143FD-18D4-425D-BA2C-CFB8018C8591}">
+											<ReferenceList>
+												<Reference Name="TrackSequenceSwitch">
+													<ObjectRef Name="Healthy" ID="{FBA5312C-5D18-4C30-BE8D-93DE90C4FF83}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="rythm3_8B_100BPM" ID="{4E0696D9-EAE3-46C3-BD20-86CB44258278}" ShortID="162612515">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>46</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{58149485-8099-45A9-BA3D-BEED6877CFC5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="19"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Healthy" ID="{FBA5312C-5D18-4C30-BE8D-93DE90C4FF83}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Health" ID="{4AE0B3E6-780E-4055-A5B8-8F879938E0F9}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rythm3_8B_100BPM" ID="{470FAB9D-36FC-4FB2-BFCA-96D7D3AC7D3A}">
+											<Language>SFX</Language>
+											<AudioFile>rythm3_8B_100BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="947835131"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7E81ECD5-C014-4979-AA67-ECB6A183E5BA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList/>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{2AFD7E4B-EFB1-4B2D-9ADD-E33966ED9B3A}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{C33058B0-48AA-4342-BC0F-7E7A08A3D3B7}">
+																<PropertyList>
+																	<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{FB60C9D0-975D-408F-B6D2-9C669DDA7A10}">
+																<PropertyList>
+																	<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2C23D827-FFA7-48E1-AD9D-E0E724486D75}">
+											<ClipList>
+												<MusicClip Name="rythm3_8B_100BPM" ID="{62B99695-F952-4765-95A5-0D93F5FAFDA2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="rythm3_8B_100BPM" ID="{470FAB9D-36FC-4FB2-BFCA-96D7D3AC7D3A}"/>
+												</MusicClip>
+											</ClipList>
+											<ReferenceList>
+												<Reference Name="TrackSequenceSwitch">
+													<ObjectRef Name="Near_Death" ID="{EE049F08-508D-4F61-A01D-5E011EB17024}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{E366DA87-605C-4D9D-BAB0-E8C6826C6E33}">
+											<ReferenceList>
+												<Reference Name="TrackSequenceSwitch">
+													<ObjectRef Name="Healthy" ID="{FBA5312C-5D18-4C30-BE8D-93DE90C4FF83}" WorkUnitID="{7F2EF20D-54A2-4FBA-80DD-E6BDBA0E29A1}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CA6CF76C-8013-42BE-AB32-02101D2332DC}"/>
+								<MusicCue Name="Exit Cue" ID="{4467ED3C-7CBE-4327-9607-82D38AC65BF3}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="19200.022675737"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{B5285DF4-12FE-4D5D-9C48-CA4CAF4500D1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{EA58BC10-A99B-4E22-87E3-2E2D0D1AC771}">
+									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{77FCEBAA-6878-4879-A1C1-E2B67E4609AC}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{C1D2F157-9324-44C7-938C-2369886F7A6A}" ShortID="343745024">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{A4D94EDA-246B-47EC-ACD5-69F08ED090A2}" ShortID="161189487">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Roam" ID="{072790BF-5183-422E-9F70-3B2459771639}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

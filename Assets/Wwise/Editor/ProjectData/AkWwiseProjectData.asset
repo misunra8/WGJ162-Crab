@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 68e4b6cb7e66ff44b6d3998cde79a9d7
     GuidInternal: 
-    m_lastTime: -8586041137482130499
+    m_lastTime: -8586036893189331643
     List:
     - name: Master
       guid: 3af37e2e69639e4589bb0380a3da5c01
@@ -56,8 +56,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ab7bbff0a04169448e28da7e31fd2852
     GuidInternal: 
-    m_lastTime: -8586041139360669425
-    List: []
+    m_lastTime: -8586036893189366668
+    List:
+    - name: Roam
+      guid: 86e013b65dab5d4b855a0808026e4452
+      id: 2110808646
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Roam
+        ObjectType: 3
+      Path: Default Work Unit\Roam
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -77,8 +89,33 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 0df22e7fa254ba4f80dde6bdba0e29a1
     GuidInternal: 
-    m_lastTime: -8586041139360639395
-    List: []
+    m_lastTime: -8586036906337541210
+    List:
+    - name: Health
+      guid: e6b3e04a0e785540a5b88f879938e0f9
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Health
+        ObjectType: 11
+      Path: Default Work Unit\Health
+      values:
+      - name: Healthy
+        guid: 2c31a5fb185d304cbe8d93de90c4ff83
+        id: 2874639328
+        PathAndIcons:
+        - ElementName: Healthy
+          ObjectType: 10
+      - name: Near_Death
+        guid: 089f04ee8d50614fa01d5e011eb17024
+        id: 679296184
+        PathAndIcons:
+        - ElementName: Near_Death
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -88,5 +125,9 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /WGJ162-Crab_WwiseProject
+  - /WGJ162-Crab_WwiseProject/Events
+  - /WGJ162-Crab_WwiseProject/Events/Default Work Unit
+  - /WGJ162-Crab_WwiseProject/SoundBanks
+  - /WGJ162-Crab_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

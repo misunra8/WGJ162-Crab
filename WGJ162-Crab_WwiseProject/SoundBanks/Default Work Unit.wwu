@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{CBB6E468-667E-44FF-B6D3-998CDE79A9D7}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{2E7EF33A-6369-459E-89BB-0380A3DA5C01}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="SideDash" ID="{E9D3E24C-9FDD-46CC-9A9B-A2AB6325E4F3}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Roam" ID="{B613E086-AB5D-4B5D-855A-0808026E4452}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

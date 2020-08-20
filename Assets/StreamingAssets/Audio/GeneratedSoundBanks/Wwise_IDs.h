@@ -11,6 +11,27 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID ROAM = 2110808646U;
+        static const AkUniqueID SIDEDASH = 2353344904U;
+    } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace HEALTH
+        {
+            static const AkUniqueID GROUP = 3677180323U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID HEALTHY = 2874639328U;
+                static const AkUniqueID NEAR_DEATH = 679296184U;
+            } // namespace SWITCH
+        } // namespace HEALTH
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Roam" ID="{B613E086-AB5D-4B5D-855A-0808026E4452}">
+					<ChildrenList>
+						<Action Name="" ID="{2EEC2BAD-C392-4112-A9DF-7BF4B66E62CB}" ShortID="849338844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roam A" ID="{0B9914D5-3006-4EE5-B1B0-5381A3EBC3E6}" WorkUnitID="{8ACA5E08-3CD5-4903-A7EB-B99353974C05}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SideDash" ID="{E9D3E24C-9FDD-46CC-9A9B-A2AB6325E4F3}">
+					<ChildrenList>
+						<Action Name="" ID="{8284673A-A656-457D-9092-31B13FFE9A35}" ShortID="613945309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sideWoosh" ID="{D9E32EEA-5C30-43C5-9CB7-097660FA080B}" WorkUnitID="{9090897D-98FE-46C3-8982-DD2FBB4E063E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
