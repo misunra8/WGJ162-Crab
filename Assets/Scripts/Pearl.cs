@@ -18,7 +18,7 @@ public class Pearl : MonoBehaviour
     {
         aliveTime -= Time.deltaTime;
         if (aliveTime < 0f) {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
 }
