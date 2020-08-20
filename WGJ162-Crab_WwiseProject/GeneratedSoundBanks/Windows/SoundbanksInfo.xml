@@ -21,19 +21,35 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2265923712" Name="ClamGun" ObjectPath="\Events\Default Work Unit\ClamGun" DurationType="OneShot" DurationMin="0.067113" DurationMax="0.153939">
+					<IncludedMemoryFiles>
+						<File Id="43332974" Language="SFX">
+							<ShortName>projectile (2).wav</ShortName>
+							<Path>SFX\projectile (2)_963450E0.wem</Path>
+						</File>
+						<File Id="547912700" Language="SFX">
+							<ShortName>projectile (1).wav</ShortName>
+							<Path>SFX\projectile (1)_F2B86619.wem</Path>
+						</File>
+						<File Id="960778583" Language="SFX">
+							<ShortName>projectile (3).wav</ShortName>
+							<Path>SFX\projectile (3)_D7BA3A88.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3513059827" Name="CrabJump" ObjectPath="\Events\Default Work Unit\CrabJump" DurationType="OneShot" DurationMin="0.256744" DurationMax="0.458205">
 					<IncludedMemoryFiles>
 						<File Id="632226857" Language="SFX">
 							<ShortName>jump-bounce.wav</ShortName>
-							<Path>SFX\jump-bounce_DFF900B8.wem</Path>
+							<Path>SFX\jump-bounce_33540B27.wem</Path>
 						</File>
 						<File Id="749110805" Language="SFX">
 							<ShortName>jump-bounce.wav</ShortName>
-							<Path>SFX\jump-bounce_599C09F9.wem</Path>
+							<Path>SFX\jump-bounce_1029B7C7.wem</Path>
 						</File>
 						<File Id="834297300" Language="SFX">
 							<ShortName>jump-bounce.wav</ShortName>
-							<Path>SFX\jump-bounce_5167EDBE.wem</Path>
+							<Path>SFX\jump-bounce_7392174F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,27 +57,27 @@
 					<IncludedMemoryFiles>
 						<File Id="68308383" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_1BF1F9FD.wem</Path>
+							<Path>SFX\crabinplasticbag_7196446E.wem</Path>
 						</File>
 						<File Id="156535245" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_AD224627.wem</Path>
+							<Path>SFX\crabinplasticbag_67BB423C.wem</Path>
 						</File>
 						<File Id="195839840" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_37F34858.wem</Path>
+							<Path>SFX\crabinplasticbag_6EA7FF36.wem</Path>
 						</File>
 						<File Id="476023684" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_4A0C1E5B.wem</Path>
+							<Path>SFX\crabinplasticbag_FD6F8D2D.wem</Path>
 						</File>
 						<File Id="518884592" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_E51ECAFC.wem</Path>
+							<Path>SFX\crabinplasticbag_CF152F87.wem</Path>
 						</File>
 						<File Id="877137825" Language="SFX">
 							<ShortName>crabinplasticbag.wav</ShortName>
-							<Path>SFX\crabinplasticbag_26AA6B8C.wem</Path>
+							<Path>SFX\crabinplasticbag_D4258EAA.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -110,6 +126,30 @@
 						<File Id="1035909184" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\rythm_8B_100BPM.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\rythm_8B_100BPM_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1192815942" Name="SeahorseHurt" ObjectPath="\Events\Default Work Unit\SeahorseHurt" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.219011" DurationMax="0.463896">
+					<IncludedMemoryFiles>
+						<File Id="188608004" Language="SFX">
+							<ShortName>hurt.wav</ShortName>
+							<Path>SFX\hurt_EC8ABBDA.wem</Path>
+						</File>
+						<File Id="263152062" Language="SFX">
+							<ShortName>hurt.wav</ShortName>
+							<Path>SFX\hurt_A61EACA0.wem</Path>
+						</File>
+						<File Id="596304057" Language="SFX">
+							<ShortName>hurt.wav</ShortName>
+							<Path>SFX\hurt_97F8B8AF.wem</Path>
+						</File>
+						<File Id="823855558" Language="SFX">
+							<ShortName>hurt.wav</ShortName>
+							<Path>SFX\hurt_84E36E09.wem</Path>
+						</File>
+						<File Id="967233042" Language="SFX">
+							<ShortName>hurt.wav</ShortName>
+							<Path>SFX\hurt_094CE22B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

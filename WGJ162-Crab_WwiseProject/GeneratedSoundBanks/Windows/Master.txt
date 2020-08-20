@@ -1,29 +1,39 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1192815942	SeahorseHurt			\Default Work Unit\SeahorseHurt	
 	2110808646	Roam			\Default Work Unit\Roam	
+	2265923712	ClamGun			\Default Work Unit\ClamGun	
 	2353344904	SideDash			\Default Work Unit\SideDash	
 	3286942356	CrabWalk			\Default Work Unit\CrabWalk	
 	3513059827	CrabJump			\Default Work Unit\CrabJump	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	68308383	crabWalk_02	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_1BF1F9FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_02		6622
+	43332974	projectile (2)	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\projectile (2)_963450E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\clamProjectile\projectile (2)		1499
+	68308383	crabWalk_02	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_7196446E.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_02		6622
 	101655479	subMelo2_8B_100BPM_Pre2B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\subMelo2_8B_100BPM_Pre2B		141007
 	108846159	subMelo4_8B_100BPM_Pre2B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\subMelo4_8B_100BPM_Pre2B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\subMelo4_8B_100BPM_Pre2B		122036
 	141049560	melo1_8B_100BPM_Pre1B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\melo1_8B_100BPM_Pre1B		223695
-	156535245	crabWalk_03	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_AD224627.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_03		7171
-	195839840	crabWalk_01	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_37F34858.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_01		12415
+	156535245	crabWalk_03	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_67BB423C.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_03		7171
+	188608004	hurt_03	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\hurt_EC8ABBDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\shHurt\hurt_03		4078
+	195839840	crabWalk_01	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_6EA7FF36.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_01		12415
+	263152062	hurt_02	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\hurt_A61EACA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\shHurt\hurt_02		3365
 	347014748	subMelo4_8B_100BPM_Pre2B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\subMelo4_8B_100BPM_Pre2B		138914
 	414003401	rythmB2	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\rythmB_8B_100BPM_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\rythmB2		267367
 	417064511	melo1_8B_100BPM_Pre1B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\melo1_8B_100BPM_Pre1B		181899
-	476023684	crabWalk_05	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_4A0C1E5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_05		7109
-	518884592	crabWalk	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_E51ECAFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk		8389
-	632226857	jump-bounce	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_DFF900B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce		3239
+	476023684	crabWalk_05	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_FD6F8D2D.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_05		7109
+	518884592	crabWalk	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_CF152F87.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk		8389
+	547912700	projectile (1)	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\projectile (1)_F2B86619.wem		\Actor-Mixer Hierarchy\Default Work Unit\clamProjectile\projectile (1)		1625
+	596304057	hurt_01	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\hurt_97F8B8AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\shHurt\hurt_01		3463
+	632226857	jump-bounce	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_33540B27.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce		3239
 	708729767	melo1_8B_100BPM_Pre1B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\melo1_8B_100BPM_Pre1B		285458
-	749110805	jump-bounce_02	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_599C09F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce_02		5442
-	834297300	jump-bounce_01	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_5167EDBE.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce_01		2563
-	877137825	crabWalk_04	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_26AA6B8C.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_04		5583
+	749110805	jump-bounce_02	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_1029B7C7.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce_02		5442
+	823855558	hurt	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\hurt_84E36E09.wem		\Actor-Mixer Hierarchy\Default Work Unit\shHurt\hurt		2031
+	834297300	jump-bounce_01	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\jump-bounce_7392174F.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabJump\jump-bounce_01		2563
+	877137825	crabWalk_04	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\crabinplasticbag_D4258EAA.wem		\Actor-Mixer Hierarchy\Default Work Unit\crabWalk\crabWalk_04		5583
 	932249202	ocean_8B_100BPM	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\ocean_8B_100BPM_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\ocean_8B_100BPM		276778
 	947835131	rythm3_8B_100BPM	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\rythm3_8B_100BPM_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\rythm3_8B_100BPM		342969
 	950576998	sideWoosh	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\short-jump-swoosh_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\sideWoosh		6268
+	960778583	projectile (3)	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\projectile (3)_D7BA3A88.wem		\Actor-Mixer Hierarchy\Default Work Unit\clamProjectile\projectile (3)		1561
 	965823196	subMelo2_8B_100BPM_Pre2B	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\subMelo3_8B_100BPM_Pre2B_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\subMelo2_8B_100BPM_Pre2B		148399
+	967233042	hurt_04	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\hurt_094CE22B.wem		\Actor-Mixer Hierarchy\Default Work Unit\shHurt\hurt_04		2849
 	1035909184	rythmB_8B_100BPM	C:\Users\misun\Desktop\Early Projects\WGJ162-Crab\WGJ162-Crab_WwiseProject\.cache\Windows\SFX\WGJ162-Crab-Music\rythm_8B_100BPM_9EDFC787.wem		\Interactive Music Hierarchy\Roam\Roam A\Roam\rythmB_8B_100BPM		217572
 

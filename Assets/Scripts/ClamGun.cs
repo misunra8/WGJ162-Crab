@@ -67,6 +67,8 @@ public class ClamGun : MonoBehaviour
                 reloading = reloadTime;
                 Pearl pearl = Instantiate(weapon);
                 pearl.transform.localPosition = transform.position;
+
+                AkSoundEngine.PostEvent("ClamGun", gameObject);
                 pearl.GetComponent<Rigidbody>().velocity = player.transform.forward * fireSpeed;
             }
         }

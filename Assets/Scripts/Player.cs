@@ -31,9 +31,14 @@ public class Player : MonoBehaviour
     private Transform facing;
 
     // Start is called before the first frame update
+
+    void Start() {
+        AkSoundEngine.PostEvent("Roam", gameObject);
+    }
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        
 
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;

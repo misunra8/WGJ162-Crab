@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ClamGun" ID="{7B49DFE9-FAC6-4158-BBF0-0C160ACD2D7C}">
+					<ChildrenList>
+						<Action Name="" ID="{35D3BBAE-283C-44C1-92C3-3C1A9195FF7A}" ShortID="524209237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="clamProjectile" ID="{A2EE2D15-B781-4E07-BFD2-F56267125FD4}" WorkUnitID="{9090897D-98FE-46C3-8982-DD2FBB4E063E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SeahorseHurt" ID="{0E663EFF-90F6-4436-87DA-9461859AA7A6}">
+					<ChildrenList>
+						<Action Name="" ID="{DD6FC98C-BC69-46A7-806C-7F25638351BF}" ShortID="965012861">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shHurt" ID="{CE11CE01-FD17-4278-B80A-278F9D803EF5}" WorkUnitID="{9090897D-98FE-46C3-8982-DD2FBB4E063E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

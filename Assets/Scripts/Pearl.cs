@@ -21,4 +21,10 @@ public class Pearl : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter(Collision collision) {
+        if (collision.gameObject.name == "SeaHorse") {
+            AkSoundEngine.PostEvent("SeahorseHurt", gameObject);
+        }
+    }
 }

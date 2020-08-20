@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{2E7EF33A-6369-459E-89BB-0380A3DA5C01}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ClamGun" ID="{7B49DFE9-FAC6-4158-BBF0-0C160ACD2D7C}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SeahorseHurt" ID="{0E663EFF-90F6-4436-87DA-9461859AA7A6}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SideDash" ID="{E9D3E24C-9FDD-46CC-9A9B-A2AB6325E4F3}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrabJump" ID="{3BB07919-B992-472C-B65E-478A0381368F}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CrabWalk" ID="{93A2D397-E300-4AD3-BD3F-3E5AC2C03AE9}" WorkUnitID="{F0BF7BAB-41A0-4469-8E28-DA7E31FD2852}" Origin="Manual" Filter="7"/>
