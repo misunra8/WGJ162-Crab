@@ -33,7 +33,8 @@ public class Player : MonoBehaviour
     public Image detectionLeftMeter, detectionRightMeter;
     private List<SeaHorse> seahorses;
 
-    // Start is called before the first frame update
+    // GameWon is a post game countdown timer to change the scene
+    private float gameWon;
 
     void Start() {
         _themeSong = AkSoundEngine.PostEvent("Roam", gameObject);
@@ -61,6 +62,7 @@ public class Player : MonoBehaviour
         chargeBar.fillMethod = Image.FillMethod.Horizontal;
         
         seahorses = new List<SeaHorse>();
+        gameWon = -1f;
     }
 
     // Update is called once per frame
@@ -76,7 +78,14 @@ public class Player : MonoBehaviour
         cam.transform.localRotation = transform.localRotation;
 
         HandleInput();
-        UpdateDetection();
+        if (gameWon > 0) {
+            gameWon -= Time.deltaTime;
+            if (gameWon <= 0) {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("End");
+            }
+        } else {
+            UpdateDetection();
+        }
     }
 
     private void HandleInput() {
@@ -160,11 +169,15 @@ public class Player : MonoBehaviour
                 dashCatchTime = dashTimeout;
             }
         }
-        
+
     }
 
     public void AddSeahorse(SeaHorse s) {
         seahorses.Add(s);
+    }
+
+    public void RemoveSeahorse(SeaHorse s) {
+        seahorses.Remove(s);
     }
 
     public float CheckNearest() {
@@ -182,6 +195,11 @@ public class Player : MonoBehaviour
     }
 
     private void UpdateDetection() {
+        if (seahorses.Count == 0) {
+            // You won the game!
+            gameWon = 2.5f;
+            return;
+        }
         float closest = CheckNearest();
         float detection = 0f;
         if (closest < failurePoint) {

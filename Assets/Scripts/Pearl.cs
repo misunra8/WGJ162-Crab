@@ -23,8 +23,10 @@ public class Pearl : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.name == "SeaHorse") {
+        SeaHorse sh = collision.gameObject.GetComponent<SeaHorse>();
+        if (sh) {
             AkSoundEngine.PostEvent("SeahorseHurt", gameObject);
+            sh.TakeDamage(1);
         }
     }
 }
