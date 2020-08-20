@@ -21,6 +21,34 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3286942356" Name="CrabWalk" ObjectPath="\Events\Default Work Unit\CrabWalk" DurationType="OneShot" DurationMin="0.130534" DurationMax="0.714648">
+					<IncludedMemoryFiles>
+						<File Id="68308383" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_1BF1F9FD.wem</Path>
+						</File>
+						<File Id="156535245" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_AD224627.wem</Path>
+						</File>
+						<File Id="195839840" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_37F34858.wem</Path>
+						</File>
+						<File Id="476023684" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_4A0C1E5B.wem</Path>
+						</File>
+						<File Id="518884592" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_E51ECAFC.wem</Path>
+						</File>
+						<File Id="877137825" Language="SFX">
+							<ShortName>crabinplasticbag.wav</ShortName>
+							<Path>SFX\crabinplasticbag_26AA6B8C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2110808646" Name="Roam" ObjectPath="\Events\Default Work Unit\Roam" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="101655479" Language="SFX">

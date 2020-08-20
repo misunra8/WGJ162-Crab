@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="CrabWalk" ID="{93A2D397-E300-4AD3-BD3F-3E5AC2C03AE9}">
+					<ChildrenList>
+						<Action Name="" ID="{EFFF322B-30FF-49DE-B4D8-A56586E66201}" ShortID="959949088">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crabWalk" ID="{10D8C9A0-A4F0-4204-84FB-94D67F816C3F}" WorkUnitID="{9090897D-98FE-46C3-8982-DD2FBB4E063E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

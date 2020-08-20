@@ -43,6 +43,227 @@
 						<ActiveSource Name="short-jump-swoosh" ID="{5B49BAFF-AA30-4424-B5D1-E208F9988963}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="crabWalk" ID="{10D8C9A0-A4F0-4204-84FB-94D67F816C3F}" ShortID="576168538">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>18</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{88C5E6AF-3DD7-49B0-BD6B-0D3840E5D6FF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="17"/>
+											<Property Name="Min" Type="Real64" Value="-7"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6CA437F1-204F-4261-A4F6-E200F446CA31}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="909"/>
+											<Property Name="Min" Type="Real64" Value="-960"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2F236B1E-9ABB-46BC-9EBA-17EB94B38E42}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="crabWalk" ID="{D064148B-DEDB-4A44-950D-25AD7F4C8547}" ShortID="857422345">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{6D2FC353-DC9B-4697-BE7D-D20B8EA6E256}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.96843125128839"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.2685508142651"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="518884592"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{6D2FC353-DC9B-4697-BE7D-D20B8EA6E256}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crabWalk_01" ID="{37CD59CA-BC4A-4816-975A-A2799FCDBACA}" ShortID="282198825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{7D4151DF-D718-4B2C-9794-634569B4F5DB}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.20047825190682"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.61093588950732"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="195839840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{7D4151DF-D718-4B2C-9794-634569B4F5DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crabWalk_02" ID="{D5A33262-33A5-4A99-A497-0634A00BF85D}" ShortID="763088832">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{CF3F9B3A-CF76-497A-8CCF-9ABE56436C1C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.51129457843744"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.76727891156463"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68308383"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{CF3F9B3A-CF76-497A-8CCF-9ABE56436C1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crabWalk_03" ID="{B7FB9BAE-6F1E-49BE-9554-F4AEC542AC46}" ShortID="597468260">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{E1EE2FEC-873E-4B24-939E-F522B3563AFD}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.829742321170893"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.06807256235828"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="156535245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{E1EE2FEC-873E-4B24-939E-F522B3563AFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crabWalk_04" ID="{9038DA32-BEE0-4A76-8FC2-1E4C6750DE6E}" ShortID="447103635">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{8382499F-B1AE-40E0-85EA-F0E9E48761DF}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.7054895897753"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.95264687693259"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877137825"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{8382499F-B1AE-40E0-85EA-F0E9E48761DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crabWalk_05" ID="{2FB18E55-E067-4E6E-8C20-69921DC55B8B}" ShortID="888109748">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{78968FEC-D921-4762-B2BD-0D0007CCA6A5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6EED33C3-E1B3-4F70-B0A9-C0B74D10497F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="crabinplasticbag" ID="{E9927AA6-819A-42D6-BD14-D2D2711C2A7D}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.19165120593692"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.4123273551845"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>crabinplasticbag.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="476023684"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="crabinplasticbag" ID="{E9927AA6-819A-42D6-BD14-D2D2711C2A7D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

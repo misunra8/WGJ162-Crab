@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{AB360644-43B7-49CD-AF53-69D36F5D7BBD}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\misun\Desktop\Early Projects\WGJ162-Crab-Music\sfx\"/>
+				<Property Name="Event Action List\{93A2D397-E300-4AD3-BD3F-3E5AC2C03AE9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B613E086-AB5D-4B5D-855A-0808026E4452}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E9D3E24C-9FDD-46CC-9A9B-A2AB6325E4F3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
