@@ -166,6 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d668a007fcacc1743ab2805c87830198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reloadTime: 0.5
+  fireSpeed: 60
+  weapon: {fileID: 2430531317775970536, guid: 175b1b391e317934f8fa1fbad42907b4, type: 3}
   clamBounceSize: 15
   clamBounceTime: 2
   ac:
@@ -654,8 +657,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171025184}
   m_LocalRotation: {x: 0.6310076, y: -0, z: -0, w: 0.7757766}
-  m_LocalPosition: {x: -0.0003800074, y: 0.005950001, z: 0.012020008}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.0003800074, y: 0.0035, z: 0.0125}
+  m_LocalScale: {x: 1, y: 1, z: 0.48}
   m_Children: []
   m_Father: {fileID: 196486196}
   m_RootOrder: 0
@@ -1195,8 +1198,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2454061033392646333}
   m_LocalRotation: {x: -0, y: 0.6378006, z: 0.77020156, w: 0}
-  m_LocalPosition: {x: -0.00020999908, y: -0.0058700005, z: 0.011789981}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.00020999908, y: -0.0039, z: 0.0122}
+  m_LocalScale: {x: 1, y: 1, z: 0.48}
   m_Children: []
   m_Father: {fileID: 2135888835}
   m_RootOrder: 0
