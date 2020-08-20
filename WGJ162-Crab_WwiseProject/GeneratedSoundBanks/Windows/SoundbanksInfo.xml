@@ -25,47 +25,47 @@
 					<IncludedMemoryFiles>
 						<File Id="101655479" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B_9EDFC787.wem</Path>
 						</File>
 						<File Id="108846159" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo4_8B_100BPM_Pre2B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\subMelo4_8B_100BPM_Pre2B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\subMelo4_8B_100BPM_Pre2B_9EDFC787.wem</Path>
 						</File>
 						<File Id="141049560" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B_9EDFC787.wem</Path>
 						</File>
 						<File Id="347014748" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B_9EDFC787.wem</Path>
 						</File>
 						<File Id="414003401" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\rythmB_8B_100BPM.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\rythmB_8B_100BPM_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\rythmB_8B_100BPM_9EDFC787.wem</Path>
 						</File>
 						<File Id="417064511" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B_9EDFC787.wem</Path>
 						</File>
 						<File Id="708729767" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B_9EDFC787.wem</Path>
 						</File>
 						<File Id="932249202" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\ocean_8B_100BPM.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\ocean_8B_100BPM_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\ocean_8B_100BPM_9EDFC787.wem</Path>
 						</File>
 						<File Id="947835131" Language="SFX">
 							<ShortName>rythm3_8B_100BPM.wav</ShortName>
-							<Path>SFX\rythm3_8B_100BPM_D79FB2B7.wem</Path>
+							<Path>SFX\rythm3_8B_100BPM_9EDFC787.wem</Path>
 						</File>
 						<File Id="965823196" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo3_8B_100BPM_Pre2B.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\subMelo3_8B_100BPM_Pre2B_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\subMelo3_8B_100BPM_Pre2B_9EDFC787.wem</Path>
 						</File>
 						<File Id="1035909184" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\rythm_8B_100BPM.wav</ShortName>
-							<Path>SFX\WGJ162-Crab-Music\rythm_8B_100BPM_D79FB2B7.wem</Path>
+							<Path>SFX\WGJ162-Crab-Music\rythm_8B_100BPM_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +73,7 @@
 					<IncludedMemoryFiles>
 						<File Id="950576998" Language="SFX">
 							<ShortName>short-jump-swoosh.wav</ShortName>
-							<Path>SFX\short-jump-swoosh_10C4C929.wem</Path>
+							<Path>SFX\short-jump-swoosh_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
