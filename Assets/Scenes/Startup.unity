@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 201284123}
   - component: {fileID: 201284122}
   - component: {fileID: 201284121}
+  - component: {fileID: 201284127}
   m_Layer: 0
   m_Name: Geo_Crab
   m_TagString: Untagged
@@ -232,6 +233,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201284127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201284120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712c73f7a08dc304ca3441b2b975081b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &298914044
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Entry
+  _event: 0
 --- !u!1 &925483662
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +755,7 @@ GameObject:
   - component: {fileID: 1639368408}
   - component: {fileID: 1639368407}
   - component: {fileID: 1639368411}
+  - component: {fileID: 1639368412}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -845,6 +870,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 201284120}
   speed: 15
+--- !u!114 &1639368412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639368406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d03ad7be60faa548aaa7bd5dd57f920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9356d6459f0e0f545846f200bea3216a,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1781756002
 GameObject:
   m_ObjectHideFlags: 0

@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Entry
+  _event: 0
 --- !u!114 &659440275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,6 +868,8 @@ GameObject:
   - component: {fileID: 1780030439}
   - component: {fileID: 1780030438}
   - component: {fileID: 1780030437}
+  - component: {fileID: 1780030442}
+  - component: {fileID: 1780030445}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -981,3 +984,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 15.328001, y: 180, z: 0}
+--- !u!114 &1780030442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780030436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e32d6576fcea5040a99c5f2a4119479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1780030445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780030436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d03ad7be60faa548aaa7bd5dd57f920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9356d6459f0e0f545846f200bea3216a,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 

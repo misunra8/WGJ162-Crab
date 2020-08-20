@@ -25,15 +25,15 @@
 					<IncludedMemoryFiles>
 						<File Id="43332974" Language="SFX">
 							<ShortName>projectile (2).wav</ShortName>
-							<Path>SFX\projectile (2)_963450E0.wem</Path>
+							<Path>SFX\projectile (2)_E566A348.wem</Path>
 						</File>
 						<File Id="547912700" Language="SFX">
 							<ShortName>projectile (1).wav</ShortName>
-							<Path>SFX\projectile (1)_F2B86619.wem</Path>
+							<Path>SFX\projectile (1)_CE9130B5.wem</Path>
 						</File>
 						<File Id="960778583" Language="SFX">
 							<ShortName>projectile (3).wav</ShortName>
-							<Path>SFX\projectile (3)_D7BA3A88.wem</Path>
+							<Path>SFX\projectile (3)_A4FFC289.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +81,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2110808646" Name="Roam" ObjectPath="\Events\Default Work Unit\Roam" DurationType="Infinite">
+				<Event Id="1750343382" Name="GameTheme" ObjectPath="\Events\Default Work Unit\GameTheme" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="101655479" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo2_8B_100BPM_Pre2B.wav</ShortName>
@@ -95,6 +95,10 @@
 							<ShortName>WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\melo3_8B_100BPM_Pre1B_9EDFC787.wem</Path>
 						</File>
+						<File Id="189478456" Language="SFX">
+							<ShortName>end1_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end1_4B_100BPM_Post3B_9EDFC787.wem</Path>
+						</File>
 						<File Id="347014748" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\subMelo_8B_100BPM_Pre2B_9EDFC787.wem</Path>
@@ -107,9 +111,29 @@
 							<ShortName>WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\melo1_8B_100BPM_Pre1B_9EDFC787.wem</Path>
 						</File>
+						<File Id="529192638" Language="SFX">
+							<ShortName>start3_8B_100BPM.wav</ShortName>
+							<Path>SFX\start3_8B_100BPM_9EDFC787.wem</Path>
+						</File>
+						<File Id="567752410" Language="SFX">
+							<ShortName>start1_8B_100BPM.wav</ShortName>
+							<Path>SFX\start1_8B_100BPM_9EDFC787.wem</Path>
+						</File>
+						<File Id="643173116" Language="SFX">
+							<ShortName>end2_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end2_4B_100BPM_Post3B_9EDFC787.wem</Path>
+						</File>
 						<File Id="708729767" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\melo2_8B_100BPM_Pre1B_9EDFC787.wem</Path>
+						</File>
+						<File Id="733751210" Language="SFX">
+							<ShortName>end3_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end3_4B_100BPM_Post3B_9EDFC787.wem</Path>
+						</File>
+						<File Id="741883364" Language="SFX">
+							<ShortName>start2_8B_100BPM.wav</ShortName>
+							<Path>SFX\start2_8B_100BPM_9EDFC787.wem</Path>
 						</File>
 						<File Id="932249202" Language="SFX">
 							<ShortName>WGJ162-Crab-Music\ocean_8B_100BPM.wav</ShortName>
@@ -127,29 +151,65 @@
 							<ShortName>WGJ162-Crab-Music\rythm_8B_100BPM.wav</ShortName>
 							<Path>SFX\WGJ162-Crab-Music\rythm_8B_100BPM_9EDFC787.wem</Path>
 						</File>
+						<File Id="1070301256" Language="SFX">
+							<ShortName>end4_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end4_4B_100BPM_Post3B_9EDFC787.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0716037B-6424-495B-B9C6-07F0A7770958}">
+							<Media>
+								<File Id="417064511"/>
+								<File Id="708729767"/>
+								<File Id="141049560"/>
+								<File Id="932249202"/>
+								<File Id="1035909184"/>
+								<File Id="101655479"/>
+								<File Id="965823196"/>
+								<File Id="108846159"/>
+								<File Id="347014748"/>
+								<File Id="414003401"/>
+								<File Id="947835131"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5D1E9915-48A0-4523-8625-975C16E88FD5}">
+							<Media>
+								<File Id="189478456"/>
+								<File Id="643173116"/>
+								<File Id="733751210"/>
+								<File Id="1070301256"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{803DA54E-2528-4F1F-AD0B-2C8AEB469C2B}">
+							<Media>
+								<File Id="567752410"/>
+								<File Id="741883364"/>
+								<File Id="529192638"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1192815942" Name="SeahorseHurt" ObjectPath="\Events\Default Work Unit\SeahorseHurt" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.219011" DurationMax="0.463896">
 					<IncludedMemoryFiles>
 						<File Id="188608004" Language="SFX">
 							<ShortName>hurt.wav</ShortName>
-							<Path>SFX\hurt_EC8ABBDA.wem</Path>
+							<Path>SFX\hurt_4F63C14A.wem</Path>
 						</File>
 						<File Id="263152062" Language="SFX">
 							<ShortName>hurt.wav</ShortName>
-							<Path>SFX\hurt_A61EACA0.wem</Path>
+							<Path>SFX\hurt_CBEAF901.wem</Path>
 						</File>
 						<File Id="596304057" Language="SFX">
 							<ShortName>hurt.wav</ShortName>
-							<Path>SFX\hurt_97F8B8AF.wem</Path>
+							<Path>SFX\hurt_3F5D0FA2.wem</Path>
 						</File>
 						<File Id="823855558" Language="SFX">
 							<ShortName>hurt.wav</ShortName>
-							<Path>SFX\hurt_84E36E09.wem</Path>
+							<Path>SFX\hurt_CA46F738.wem</Path>
 						</File>
 						<File Id="967233042" Language="SFX">
 							<ShortName>hurt.wav</ShortName>
-							<Path>SFX\hurt_094CE22B.wem</Path>
+							<Path>SFX\hurt_F770F9E9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -162,6 +222,15 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="GamePlay" ObjectPath="\Switches\Default Work Unit\GamePlay">
+					<Switches>
+						<Switch Id="1256202815" Name="Play" ObjectPath="\Switches\Default Work Unit\GamePlay\Play"/>
+						<Switch Id="529726532" Name="End" ObjectPath="\Switches\Default Work Unit\GamePlay\End"/>
+						<Switch Id="1281810935" Name="Start" ObjectPath="\Switches\Default Work Unit\GamePlay\Start"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -16,23 +16,35 @@ namespace AK
         static const AkUniqueID CLAMGUN = 2265923712U;
         static const AkUniqueID CRABJUMP = 3513059827U;
         static const AkUniqueID CRABWALK = 3286942356U;
-        static const AkUniqueID ROAM = 2110808646U;
+        static const AkUniqueID GAMETHEME = 1750343382U;
         static const AkUniqueID SEAHORSEHURT = 1192815942U;
         static const AkUniqueID SIDEDASH = 2353344904U;
     } // namespace EVENTS
 
     namespace SWITCHES
     {
-        namespace HEALTH
+        namespace DANGER
         {
-            static const AkUniqueID GROUP = 3677180323U;
+            static const AkUniqueID GROUP = 4174463524U;
 
             namespace SWITCH
             {
-                static const AkUniqueID HEALTHY = 2874639328U;
-                static const AkUniqueID NEAR_DEATH = 679296184U;
+                static const AkUniqueID CLEAN = 1754255532U;
+                static const AkUniqueID NEARBY = 1989959712U;
             } // namespace SWITCH
-        } // namespace HEALTH
+        } // namespace DANGER
+
+        namespace GAMEPLAY
+        {
+            static const AkUniqueID GROUP = 89505537U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID PLAY = 1256202815U;
+                static const AkUniqueID START = 1281810935U;
+            } // namespace SWITCH
+        } // namespace GAMEPLAY
 
     } // namespace SWITCHES
 

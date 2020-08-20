@@ -37,7 +37,9 @@ public class Player : MonoBehaviour
     private float gameWon;
 
     void Start() {
-        _themeSong = AkSoundEngine.PostEvent("Roam", gameObject);
+        _themeSong = AkSoundEngine.PostEvent("GameTheme", gameObject);
+        AkSoundEngine.SetSwitch("GamePlay", "Play", gameObject);
+        AkSoundEngine.SetSwitch("Danger", "Clean", gameObject);
     }
 
     void Awake()
@@ -203,14 +205,22 @@ public class Player : MonoBehaviour
         float closest = CheckNearest();
         float detection = 0f;
         if (closest < failurePoint) {
+            AkSoundEngine.StopPlayingID(_themeSong);
             UnityEngine.SceneManagement.SceneManager.LoadScene("End");
         }
         if (closest < dangerThreshold) {
+            
             closest -= failurePoint;
             detection = 1f - (closest / (dangerThreshold - failurePoint));
+            if (detection > 0.2f) {
+                AkSoundEngine.SetSwitch("Danger", "Nearby", gameObject);
+            } else {
+                AkSoundEngine.SetSwitch("Danger", "Clean", gameObject);
+            }
             detectionLeftMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
             detectionRightMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
         }
+        
         detectionLeftMeter.fillAmount = detection;
         detectionRightMeter.fillAmount = detection;
     }
