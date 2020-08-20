@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody rb;
     public float jumpModifier = 10;
+    private uint _themeSong;
     
     public KeyCode forward, left, right, backward, jump;
 
@@ -35,7 +36,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
 
     void Start() {
-        AkSoundEngine.PostEvent("Roam", gameObject);
+        _themeSong = AkSoundEngine.PostEvent("Roam", gameObject);
     }
 
     void Awake()
