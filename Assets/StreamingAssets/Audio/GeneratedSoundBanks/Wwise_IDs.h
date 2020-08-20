@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CRABJUMP = 3513059827U;
         static const AkUniqueID CRABWALK = 3286942356U;
         static const AkUniqueID ROAM = 2110808646U;
         static const AkUniqueID SIDEDASH = 2353344904U;

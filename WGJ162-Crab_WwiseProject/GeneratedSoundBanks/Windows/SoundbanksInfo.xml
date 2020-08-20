@@ -21,6 +21,22 @@
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3513059827" Name="CrabJump" ObjectPath="\Events\Default Work Unit\CrabJump" DurationType="OneShot" DurationMin="0.256744" DurationMax="0.458205">
+					<IncludedMemoryFiles>
+						<File Id="632226857" Language="SFX">
+							<ShortName>jump-bounce.wav</ShortName>
+							<Path>SFX\jump-bounce_DFF900B8.wem</Path>
+						</File>
+						<File Id="749110805" Language="SFX">
+							<ShortName>jump-bounce.wav</ShortName>
+							<Path>SFX\jump-bounce_599C09F9.wem</Path>
+						</File>
+						<File Id="834297300" Language="SFX">
+							<ShortName>jump-bounce.wav</ShortName>
+							<Path>SFX\jump-bounce_5167EDBE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3286942356" Name="CrabWalk" ObjectPath="\Events\Default Work Unit\CrabWalk" DurationType="OneShot" DurationMin="0.130534" DurationMax="0.714648">
 					<IncludedMemoryFiles>
 						<File Id="68308383" Language="SFX">

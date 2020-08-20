@@ -92,6 +92,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(jump) && onGround) {
             rb.AddForce(0, jumpModifier, 0, ForceMode.Impulse);
+            AkSoundEngine.PostEvent("CrabJump", gameObject);
             onGround = false;
         }
 
