@@ -6,11 +6,13 @@ public class SeaHorse : MonoBehaviour
 {
     //public Transform crabForm;
     public float speed = 5;
+
+    private Player player;
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        player = FindObjectOfType<Player>();
+        player.AddSeahorse(this);
     }
 
     // Update is called once per frame
@@ -23,6 +25,5 @@ public class SeaHorse : MonoBehaviour
         Vector3 velocity = direction * speed;
 
         transform.Translate(velocity * Time.deltaTime);
-
     }
 }

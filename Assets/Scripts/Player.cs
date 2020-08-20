@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Player : MonoBehaviour
     public float speed = 2.0f;
     public float rotateSpeed = 0.5f;
 
-    public Rigidbody rb;
+    private Rigidbody rb;
     public float jumpModifier = 10;
     
     public KeyCode forward, left, right, backward, jump;
@@ -30,11 +31,16 @@ public class Player : MonoBehaviour
 
     private Transform facing;
 
+    public float dangerThreshold, failurePoint;
+    public Image detectionLeftMeter, detectionRightMeter;
+    private List<SeaHorse> seahorses;
+
     // Start is called before the first frame update
 
     void Start() {
         AkSoundEngine.PostEvent("Roam", gameObject);
     }
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -58,6 +64,8 @@ public class Player : MonoBehaviour
         dashCatchTime = 0f;
         chargeBar.type = Image.Type.Filled;
         chargeBar.fillMethod = Image.FillMethod.Horizontal;
+        
+        seahorses = new List<SeaHorse>();
     }
 
     // Update is called once per frame
@@ -73,6 +81,7 @@ public class Player : MonoBehaviour
         cam.transform.localRotation = transform.localRotation;
 
         HandleInput();
+        UpdateDetection();
     }
 
     private void HandleInput() {
@@ -159,5 +168,38 @@ public class Player : MonoBehaviour
             }
         }
         
+    }
+
+    public void AddSeahorse(SeaHorse s) {
+        seahorses.Add(s);
+    }
+
+    public float CheckNearest() {
+        float closest = Mathf.Infinity;
+        SeaHorse nearestSeahorse;
+
+        foreach (SeaHorse s in seahorses) {
+            float dist = Vector3.Distance(transform.position, s.transform.position);
+            if (dist < closest) {
+                closest = dist;
+                nearestSeahorse = s;
+            }
+        }
+        return closest;
+    }
+
+    private void UpdateDetection() {
+        float closest = CheckNearest();
+        if (closest < failurePoint) {
+            EditorSceneManager.LoadScene("End");
+        }
+        if (closest < dangerThreshold) {
+            closest -= failurePoint;
+            float detection = 1f - (closest / (dangerThreshold - failurePoint));
+            detectionLeftMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
+            detectionLeftMeter.fillAmount = detection;
+            detectionRightMeter.color = Color.Lerp(Color.yellow, Color.red, detection);
+            detectionRightMeter.fillAmount = detection;
+        }
     }
 }
